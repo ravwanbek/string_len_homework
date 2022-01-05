@@ -6,4 +6,7 @@ def main(s):
     Returns:
         string
     """
-    return
+    n=len(s)
+    b="\u002A"*n
+    return b
+print(main(s='hello'))
