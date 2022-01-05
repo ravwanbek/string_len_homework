@@ -6,4 +6,6 @@ def main(a):
     Returns:
         length of string
     """
-    return
+    b=len(a)
+    return b
+print(main(a='Assalomu alaykum'))
