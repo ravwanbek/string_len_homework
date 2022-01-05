@@ -11,25 +11,26 @@ def main(s1,s2,s3):
     a=len(s1)
     b=len(s2)
     c=len(s3)
+
     if a%2!=0 and b%2==0 and c%2==0:
-        answer=[s1]
+        answer='['+s1+']'
     elif b%2!=0 and a%2==0 and c%2==0:
-        answer=[s2]
+        answer='['+s2+']'
     elif c%2!=0 and a%2==0 and b%2==0:
-        answer=[s3]
+        answer='['+s3+']'
     elif a%2!=0 and b%2!=0 and c%2==0:
-        answer=[s1,s2]
+        answer='['+s1+','+s2+']'
     elif a%2!=0 and c%2!=0 and b%2==0:
-        answer=[s1,s3]
+        answer='['+s1+','+s3+']'
     elif b%2!=0 and c%2!=0 and a%2==0:
-        answer=[s2,s3]
+        answer='['+s2+','+s3+']'
     elif a%2!=0 and b%2!=0 and c%2!=0:
-        answer=[s1,s2,s3]
+        answer='['+s1+','+s2+','+s3+']'
     elif a%2==0 and b%2==0 and c%2==0:
         answer=[]
     
     return answer   
-print(main(s1='Kia',s2='Toyota',s3='BMW'))
+print(main(s1='kia',s2='hyundai',s3='volvo'))
 
 
         
