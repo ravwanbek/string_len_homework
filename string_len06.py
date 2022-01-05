@@ -12,8 +12,8 @@ def main(s1,s2):
 
 
     if a>b:
-        return b
+        return s2
     else: 
-        return a
+        return s1
     
 print(main(s1='Alisher',s2='Sardor'))
