@@ -25,6 +25,8 @@ def main(s1,s2,s3):
         answer=[s2,s3]
     elif a%2!=0 and b%2!=0 and c%2!=0:
         answer=[s1,s2,s3]
+    elif a%2==0 and b%2==0 and c%2==0:
+        answer=[]
     
     return answer   
 print(main(s1='Kia',s2='Toyota',s3='BMW'))
