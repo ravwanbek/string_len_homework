@@ -27,10 +27,10 @@ def main(s1,s2,s3):
     elif a%2!=0 and b%2!=0 and c%2!=0:
         answer='['+s1+','+s2+','+s3+']'
     elif a%2==0 and b%2==0 and c%2==0:
-        answer=[]
+        answer='[]'
     
     return answer   
-print(main(s1='kia',s2='hyundai',s3='volvo'))
+print(main(s1='kiaa',s2='hyundais',s3='volvof'))
 
 
         
