@@ -7,4 +7,13 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    a=len(s1)
+    b=len(s2)
+
+
+    if a>=b:
+        return b
+    else: 
+        return a
+    
+print(main(s1='Alisher',s2='Sardor'))
