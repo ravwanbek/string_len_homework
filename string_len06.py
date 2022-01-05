@@ -11,7 +11,7 @@ def main(s1,s2):
     b=len(s2)
 
 
-    if a>=b:
+    if a>b:
         return b
     else: 
         return a
